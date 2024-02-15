@@ -5,6 +5,8 @@ public class BcmNativeToastPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "bcm_native_toast", binaryMessenger: registrar.messenger())
     let instance = BcmNativeToastPlugin()
+    let api = BcmHostApiImpl()
+    BcmHostApiSetup.setUp(binaryMessenger:registrar.messenger(),api:api)
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
