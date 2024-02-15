@@ -11,7 +11,7 @@ dependencies:
   bcm_core_utils:
     #path: ../bcm_core_utils
     git:
-      url: git@github.com:beagavinchan/bcm_core_utils.gitIn
+      url: git@github.com:beagavinchan/bcm_core_utils.git
       ref: 0.0.1
   flutter:
     sdk: flutter
