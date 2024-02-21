@@ -12,7 +12,7 @@ dependencies:
     #path: ../bcm_core_utils
     git:
       url: git@github.com:beagavinchan/bcm_core_utils.git
-      ref: 0.0.1
+      ref: main
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
